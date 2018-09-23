@@ -16,6 +16,7 @@ public class SWTMathApp {
 		
 	    Spinner spinner = new Spinner(shell, SWT.BORDER);
 	    spinner.setToolTipText("Gregs Spinner");
+	    //spinner.setLocation(50, 50);
 	    spinner.setMinimum(0);
 	    spinner.setMaximum(20);
 	    spinner.setSelection(10);
